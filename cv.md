@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
 <title>CV</title>
 </head>
