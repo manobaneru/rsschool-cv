@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CV</title>
 </head>
 <body>
 <h1>Victoria Maximenkova</h1>
