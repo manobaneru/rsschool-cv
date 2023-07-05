@@ -1,12 +1,191 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-<title>Page Title</title>
-</head>
-<body>
-
-<h1>Тестовый текст раз</h1>
-<p>Тестовый текст два</p>
-
+    <head>
+        <meta charset="UTF-8">
+        <title>CV Maximenkova VS</title>
+        <script>
+        document.createElement('aside');
+        document.createElement('article');
+        </script>
+        <style>
+        body {
+            background: linear-gradient(blue, 10%, pink);
+            flex-wrap: wrap;
+            flex: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0px;
+            margin-top: 25px;
+        }
+        header {
+            flex-wrap: wrap;
+            flex: 200px;
+            align-items: center;
+            font-weight: 500;
+        }
+        footer {
+            flex-wrap: wrap;
+            flex: 200px;
+            align-items: center;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        section {
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0px;
+            margin-top: 25px;
+            bottom: 0px;
+            width: 700px;
+            font-family: system-ui;
+        }
+        section.about-me {
+            text-align: center;
+        }
+        section.contacts {
+            text-align: left;
+            font-family: system-ui;
+        }
+        section.skills {
+            text-align: left;
+            
+        }
+        a {
+            color:#CCFB5D;
+            font-family: system-ui;
+            text-decoration: none;
+            -webkit-transition: all 1s ease;
+            transition: all 1s ease; 
+        }
+        a:hover {
+            color: #FFF8DC; 
+        }
+        ul.nav_list {
+            text-align: center;
+            align-items: center;
+            margin: 0; 
+            padding: 10px; 
+            font-family: system-ui;
+        }
+        ul.nav_list li {
+            align-items: center;
+            display: inline; 
+            padding: 15px; 
+            font-family: system-ui;
+        }
+        h1 {
+            color:#F5DEB3;
+            font-size: 36px;
+            font-family: Verdana, Arial, Helvetica, sans-serif; 
+        }
+        h2 {
+            font-family: Verdana, Arial, Helvetica, sans-serif; 
+        }
+        h3 {
+            font-family: Verdana, Arial, Helvetica, sans-serif; 
+        }
+        p {
+            font-family: system-ui;
+        }
+        a.ftr {
+            text-align: center;
+            display: inline-block;
+            color: #696969;
+        }
+        div.jstf {
+            width: 400px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+            background-color: #D3D3D3;
+            border: 2px solid #D3D3D3;
+            border-radius: 25px;
+        }
+        </style>
+    </head>
+<body class="page-body">
+    <header>
+        <nav class="nav">
+            <ul class="nav_list">
+              <li class="nav_item"><a href="#about-me">About me</a></li>
+              <li class="nav_item"><a href="#contacts">Contact</a></li>
+              <li class="nav_item"><a href="#skills">Skills</a></li>
+              <li class="nav_item"><a href="#code-example">Code</a></li>
+              <li class="nav_item"><a href="#work">Work</a></li>
+              <li class="nav_item"><a href="#education">Education</a></li>
+            </ul>
+          </nav>
+    </header>
+    <div>
+    <section class="about-me"> 
+        <img src="C:/IS/icon.png" alt="Victoria Maximenkova" height="200">
+        <h1>Cybersecurity Specialist</h1>
+        <h2>Victoria Maximenkova</h2>
+        <p>I am a cybersecurity specialist with 1.9+ years of experience. I'm currently finishing my 5th year in university and trying to learn more about web application security.</p>
+    </section> 
+    <section class="contacts">
+        <h2>Contacts</h2>
+        <ul>
+            <li>e-mail: vmridzel@gmail.com</li>
+            <li>telegram: wxmathers</li>
+        </ul>
+    </section>
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, Java, Bash, JavaScript (Basics)</li>
+            <li>Virtual Box, VMware, dotPeek</li>
+            <li>English - B1</li>
+        </ul>
+        <p></p>
+        <p></p>
+    </section>
+    <section id="code-example">
+        <h2>Code Example</h2>
+        <p><strong>KATA "Quarter of the year": </strong><em>Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.</em></p>
+        <div class="jstf"><pre class="highlight"><code>const quarterOf = (month) => {
+            var promnum = (month - month % 3) / 3;
+            if (month % 3 == 0){
+                return promnum;
+            }
+            else {
+                return promnum + 1;
+            }
+        }</code></pre></div>
+    </section>
+    <section id="work">
+        <h2>Experience</h2>
+        <h3>Information Security Analyst</h3>
+        <p><i>Cyclone (january 2021 - april 2022)</i></p>
+        <ul>
+            <li>Worked in the development team.</li>
+            <li>Analyzed threats and vulnerabilities of the project under development.</li>
+            <li>Formed requirements for the protection system on the basis of regulatory documentation.</li>
+            <li>Created backlogs for further selection of tools and definition of protection measures.</li>
+            <li>Coordinated the work plan with the head of the department and the customers.</li>
+            <li>Installed and configured Linux.</li>
+        </ul>
+        <h3>Information Security Specialist</h3>
+        <p><i>Sigma (august 2021 - december 2022)</i></p>
+        <ul>
+            <li>Worked in the information security department.</li>
+            <li>Participated in special inspections and studies to identify channels of information leakage in technical means.</li>
+            <li>Conducted security analysis of information facilities.</li>
+            <li>Added results to database.</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <p>Information Security of Automated Systems (2018 - 2024)</p>
+        <p><i>Bauman Moscow State Technical University</i></p>
+    </section>
+</div>
+<footer>
+    <img src="C:/IS/rs_school_js.svg" alt="RS School" height="50">
+    <p><a class="ftr" href="https://rs.school/js/">RS School 2023 (stage0)</a></p>
+    <p><a class="ftr" href="https://github.com/manobaneru">My GitHub</a></p>
+</footer>
 </body>
 </html>
