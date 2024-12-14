@@ -32,6 +32,12 @@
   }
 }</code></pre></div></div>
 
+<h3>Cybersecurity Analyst</h3>
+<p><i>Positive Technologies (july 2024 - present)</i></p>
+
+<h3>Application Security Engineer</h3>
+<p><i>ALGONT (july 2023 - july 2024)</i></p>
+
 <h3>Experience</h3>
 <h4>Information Security Analyst</h4>
 <p>Cyclone <em>(january 2023 - april 2023)</em></p>
