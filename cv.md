@@ -8,14 +8,13 @@
 <h2>Information Security Specialist</h2>
 
 <h3>About me</h3>
-<p>I am a cybersecurity specialist with more than 1.5 years of experience. I'm currently finishing my 5th year in this specialty and trying to learn more about web application security.</p>
+<p>I am a cybersecurity specialist with more than 2.9 years of experience.</p>
 
 <h3>Contact information</h3>
 <p>e-mail: vmridzel@gmail.com</p>
 
 <h3>Skills and Proficiency</h3>
 <ul>
-  <li>JavaScript Basics</li>
   <li>Java, Python, Bash</li>
   <li>VirtualBox, VMware Workstation</li>
 </ul>
